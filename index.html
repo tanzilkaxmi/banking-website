@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bank - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-indigo-100 to-pink-100 font-sans">
+
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <a href="index.html" class="text-xl font-semibold text-indigo-600">My Bank</a>
+            <nav class="space-x-4">
+                <a href="index.html" class="text-gray-700 hover:text-indigo-600 transition-colors duration-300">Home</a>
+                <a href="accounts.html" class="text-gray-700 hover:text-indigo-600 transition-colors duration-300">Accounts</a>
+                <a href="loans.html" class="text-gray-700 hover:text-indigo-600 transition-colors duration-300">Loans</a>
+                <a href="investments.html" class="text-gray-700 hover:text-indigo-600 transition-colors duration-300">Investments</a>
+                <a href="contact.html" class="text-gray-700 hover:text-indigo-600 transition-colors duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-16">
+        <section class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-indigo-800 mb-4">Unlock Your Financial Potential</h1>
+            <p class="text-lg text-gray-600 mb-8">Discover a world of financial services tailored to your needs.</p>
+            <a href="#" class="bg-gradient-to-r from-indigo-500 to-pink-500 hover:from-indigo-600 hover:to-pink-600 text-white px-8 py-3 rounded-full font-semibold transition-colors duration-300">Explore Services</a>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <a href="cards.html" class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border-l-4 border-indigo-500">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-indigo-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h10m-9-9v14m12-9v14"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-800">Cards</h3>
+                </div>
+                <p class="text-gray-600">Manage your credit and debit cards with ease.</p>
+            </a>
+            <a href="personal-loans.html" class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border-l-4 border-pink-500">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-pink-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.04 3 .12v3.85m-3.99.98a4 4 0 01-1.51-1h-.26l1.48-2.94M14.48 10.8a4 4 0 013-2.75l-.35-1.68M14.3 12.02a3 3 0 11-5.99-.14M15.13 13.91l1.55 3.1m-4.7-5.09v5.11"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-800">Loans</h3>
+                </div>
+                <p class="text-gray-600">Explore loan options tailored to your needs.</p>
+            </a>
+            <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border-l-4 border-yellow-500">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-yellow-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17a2 2 0 11-4 0m5-2v4m5 0v-4m2 3a2 2 0 11-4 0m-8 0v4M9 15h10"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-800">Savings</h3>
+                </div>
+                <p class="text-gray-600">Grow your savings with our competitive rates.</p>
+            </div>
+            <div class="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border-l-4 border-green-500">
+                <div class="flex items-center mb-4">
+                    <svg class="w-8 h-8 text-green-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .524.512C8.75 2.507 10 3.275 10 4.247v.226c0 .972-1.25 1.74-2.5 1.74A1.5 1.5 0 016 8.25h6v2.25A1.5 1.5 0 0113.5 12h-6a9.007 9.007 0 009 8.958c1.052 0 2.062-.18 3-.524.512C15.25 21.493 14 20.725 14 19.753v-.226c0-.972 1.25-1.74 2.5-1.74A1.5 1.5 0 0118 16.5h-6V14.25A1.5 1.5 0 0116.5 12h6a8.967 8.967 0 00-6-5.958z"></path></svg>
+                    <h3 class="text-xl font-semibold text-gray-800">Investments</h3>
+                </div>
+                <p class="text-gray-600">Explore investment opportunities for your future.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white py-6 text-center text-gray-600 border-t border-gray-200">
+        <div class="container mx-auto">
+            <p>&copy; 2025 My Bank. All rights reserved Tanzil.</p>
+        </div>
+    </footer>
+</body>
+</html>
